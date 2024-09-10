@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+                    background-color: #100b16;
+width: 100%;
+}
+.top-bar {
+    background-color: #14101b;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-bar h1 {
+    font-size: 24px;
+    margin-right: 10px;
+    color: white;
+}
+
+.top-bar p {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.lang {
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.select {
+    color:white;
+    padding: 5px;
+    margin-top: 2vh;
+    width: 98%;
+    background-color:#110e11;
+    padding-bottom: 1vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.select select {
+    background-color: purple;
+    color: white;
+}
+.content {
+    color:white;
+    padding: 5px;
+    margin-top: 2vh;
+    width: 98%;
+    background-color:#110e11;
+    padding-bottom: 1vh;
+}
+
+.content .meta{
+    text-align: center;
+    padding: 10px;
+    background-color:#140627;
+}
+.images-grid .row .vortex1,.vortex2, .vortex3, .vortex4, .vortex5{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px;
+    background-color: #1c1428;
+    justify-content: center;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    gap: 13%;
+}
+.vortex1 img {
+    width: 15vw;
+    height: 10vh;
+}
+.vortex2 img {
+    width: 15vw;
+    height: 10vh;
+}
+.vortex3 img {
+    width: 15vw;
+    height: 10vh;
+}
+.vortex4 img {
+    width: 15vw;
+    height: 10vh;
+}
+.vortex5 img {
+    width: 15vw;
+    height: 10vh;
+}
+.images-grid .row2 {
+    display: flex;
+    justify-content: center;
+    gap: 12vw;
+}
+
+.row2 p {
+    background-color: #130427;
+    padding: 4vw;
+    margin-top: 1vh;
+    margin-bottom: 3vh;
+    margin-right: 0.5vw;
+}
+.iframe-container {
+    margin: 80px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    justify-content:center;
+}
+
+
+img {
+    background-color:#130427;;
+    padding: 5px;
+}
+
+.actions {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.actions button {
+    background-color: #140627;  
+    border: none;
+    color: white;
+    width: 98%;
+    padding: 10px 40%;
+    display: flex;
+    
+}
